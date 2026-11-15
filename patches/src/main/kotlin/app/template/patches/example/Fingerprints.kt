@@ -83,4 +83,11 @@ object AdLoaderFingerprint : Fingerprint(
         // Filter 6.
         opcode(Opcode.IF_EQ)
     )
+
+object ItemDetailActivityInitViewFingerprint : Fingerprint(
+    definingClass = "Lcom/taobao/fleamarket/detail/activity/ItemDetailActivity;",
+    name = "initView",
+    returnType = "V",
+    parameters = emptyList()
+)
 )
