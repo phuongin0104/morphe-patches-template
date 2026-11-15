@@ -3,7 +3,7 @@ package app.template.patches.example
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.patch
-import app.template.patches.shared.Constants.COMPATIBILITY_EXAMPLE
+import app.template.patches.shared.Constants.COMPATIBILITY_XIANYU
 
 private const val WISHLIST_EXTENSION =
     "Lapp/template/extension/extension/ExamplePatch;"
@@ -11,10 +11,10 @@ private const val WISHLIST_EXTENSION =
 @Suppress("unused")
 val wishlistPatch = patch(
     name = "Wishlist",
-    description = "Add a wishlist feature to item details.",
+    description = "Add a wishlist feature to Xianyu item details.",
     default = true
 ) {
-    compatibleWith(COMPATIBILITY_EXAMPLE)
+    compatibleWith(COMPATIBILITY_XIANYU)
 
     dependsOn(internalPatch)
 
