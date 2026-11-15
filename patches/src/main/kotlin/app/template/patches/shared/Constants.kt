@@ -83,4 +83,16 @@ object Constants {
             )
         )
     )
+
+    val COMPATIBILITY_XIANYU = Compatibility(
+        name = "Xianyu",
+        packageName = "com.taobao.idlefish",
+        apkFileType = ApkFileType.APKM,
+        appIconColor = 0xFF0045,
+        targets = listOf(
+            AppTarget(
+                version = "7.28.86.1"
+            )
+        )
+    )
 }
