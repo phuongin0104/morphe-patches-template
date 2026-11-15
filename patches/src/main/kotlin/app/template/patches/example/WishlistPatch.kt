@@ -6,7 +6,7 @@ import app.morphe.patcher.patch.patch
 import app.template.patches.shared.Constants.COMPATIBILITY_EXAMPLE
 
 private const val WISHLIST_EXTENSION =
-    "Lapp/template/extension/ExamplePatch;"
+    "Lapp/template/extension/extension/ExamplePatch;"
 
 @Suppress("unused")
 val wishlistPatch = patch(
